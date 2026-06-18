@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Pliant&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Pliant", "Roboto Slab", sans-serif;
+  font-size: 14px;
+  background-color: #fafaff;
+}
+
+.container {
+  width: 30%;
+  margin: 8rem 12rem;
+}
+
+.highlight {
+  border: 3px solid #41849a;
+  padding: 0.6em 0.8em;
+  background-color: #e8f1f4;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #41849a;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 0.4rem;
+}
+
+footer p:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+header .title {
+  margin-bottom: 0.2rem;
+}
+
+header .subtitle {
+  color: #3a405a;
+}
+
+.project > h2 {
+  font-size: 18px;
+}
+
+.project > h3 {
+  color: black;
+}
+
+.project:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.project h3 {
+  color: #3a405a;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  display: inline-block;
+  padding: 2px 4px;
+  border: 1px solid #41849a;
+  border-radius: 5px;
+}
+
+.technologies {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  color: #6e717d;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    width: 60%;
+    margin: 4rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
