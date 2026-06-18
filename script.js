@@ -84,14 +84,6 @@ const collection = [
     }
   },
   {
-    title: "torrent.go",
-    description: "Implementation of the BitTorrent protocol in Go",
-    technologies: ["Go"],
-    links: {
-      "GitHub": "https://github.com/woojiahao/torrent.go",
-    }
-  },
-  {
     title: "hermes",
     description: "Self-hosted web forum",
     technologies: ["Go", "React"],
