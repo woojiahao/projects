@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pliant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Pliant", "Roboto Slab", sans-serif;
+  font-family: "Google Sans", "Roboto Slab", sans-serif;
   font-size: 14px;
   background-color: #fafaff;
 }
@@ -51,11 +51,11 @@ header .subtitle {
   color: #3a405a;
 }
 
-.project > h2 {
+.project>h2 {
   font-size: 18px;
 }
 
-.project > h3 {
+.project>h3 {
   color: black;
 }
 
@@ -73,6 +73,7 @@ header .subtitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 0.1rem;
 }
 
 .links {
