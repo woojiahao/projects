@@ -17,6 +17,14 @@ const collection = [
     }
   },
   {
+    title: "scribner",
+    description: "TUI to consolidate backup folders",
+    technologies: ["Python", "Textual"],
+    links: {
+      "GitHub": "https://github.com/woojiahao/scribner"
+    }
+  },
+  {
     title: "Daily Planet",
     description: "RSS feed manager Discord bot",
     technologies: ["Go", "Docker"],
